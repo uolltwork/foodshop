@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.G1FOODWebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.G1FOODWebAPI.props",
+      "PackagePath": "build\\G1FOODWebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.G1FOODWebAPI.props",
+      "PackagePath": "buildMultiTargeting\\G1FOODWebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.G1FOODWebAPI.props",
+      "PackagePath": "buildTransitive\\G1FOODWebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

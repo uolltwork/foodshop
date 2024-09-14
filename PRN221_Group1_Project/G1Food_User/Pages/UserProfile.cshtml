@@ -1,0 +1,131 @@
+﻿@page
+@model G1Food_User.Pages.UserProfileModel
+@{
+    ViewData["Title"] = "User profile";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/userProfile.css" type="text/css" asp-append-version="true" />
+</head>
+<body>
+    <main class="container-fluid mt-content bg-main">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-8">
+                    <div class="d-flex justify-content-between mt-5">
+                        <h6 class="bold">Tất cả đơn hàng 
+                            @{
+                                int orderQuanity = 0;
+                                if (@Model.Orders != null)
+                                {
+                                    orderQuanity = @Model.Orders.Count();
+                                }
+                            } (@orderQuanity)
+                        </h6>
+                        <a class="btn sm" href="./Index">
+                            <i class="fa-solid fa-left-long"></i>
+                            Trở về
+                        </a>
+                    </div>
+                    <table class="table table-hover table-bordered text-center mt-5">
+                        <thead class="align-middle">
+                            <tr>
+                                <th>No.</th>
+                                <th>Ngày đặt</th>
+                                <th>Trạng thái</th>
+                                <th>Số lượng</th>
+                                <th>Note</th>
+                                <th>Giá</th>
+                            </tr>
+                        </thead>
+                        <tbody class="order-list">
+                            @{
+                                int noOrder = 1;
+                               
+                                if(@Model.Orders != null)
+                                {
+                                    foreach (var order in @Model.Orders)
+                                    {
+                                        <tr>
+                                            <td class="align-middle product-name bold">
+                                                <a href="./OrderDetail?orderID=@order.Id">@noOrder</a>
+                                            </td>
+                                            <td class="align-middle">
+                                                <a href="./OrderDetail?orderID=@order.Id">@order.Date</a>
+                                           </td>
+                                            <td class="align-middle">
+                                                <a href="./OrderDetail?orderID=@order.Id">@order.Status</a>
+                                            </td>
+                                            <td class="align-middle product-quanity">
+                                                    <a class="quantity-group justify-content-center" href="./OrderDetail?orderID=@order.Id">
+                                                        <input type="number"
+                                                               id="quantity-input"
+                                                               value="@order.Details.Count()"
+                                                               min="1" />
+                                                    </a>
+                                            </td>
+                                            <td class="align-middle">@order.Note</td>
+                                                @{
+                                                    double totalPrice = 0;
+                                                     double? voucherPercent = 0.05;
+                                                    foreach (var orderDetail in order.Details)
+                                                    {
+                                                        var price = (orderDetail.Price - (orderDetail.Price * (decimal)orderDetail.SalePercent / 100)) * (decimal)orderDetail.Quantity;
+                                                        totalPrice += (double)price;
+                                                    }
+                                                <td class="align-middle product-total bold c-main">
+                                                    <a href="./OrderDetail?orderID=@order.Id">
+                                                        @string.Format("{0:N0} VND",  @totalPrice - (@voucherPercent * @totalPrice) + 30000)
+                                                    </a>
+                                                </td>
+                                                }
+                                        </tr>
+                                        noOrder++;
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-12 col-md-4 mt-5">
+                    <div class="paying-info">
+                        <form method="get" asp-page="UpdateProfile">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <h6 class="bold">
+                                    <i class="fa-regular fa-user main-color mr-2 mb-2"></i>
+                                    Thông tin của bạn
+                                </h6>
+                            </div>
+                            <input type="text" name="id" value="@Model.userIDClaim" hidden/>
+                            <input type="text" name="token" value="@Model.userTokenClaim" hidden />
+                            <div class="form-group">
+                                <div class="fs-md bold">Họ và tên:</div>
+                                <input type="text" name="userName" value="@Model.userNameClaim" required />
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="form-group">
+                                    <div class="fs-md bold">Số điện thoại:</div>
+                                    <input type="text" name="phone" value="@Model.userPhoneClaim" required />
+                                </div>
+                                <div class="form-group ml-1">
+                                    <div class="fs-md bold">Email:</div>
+                                    <input type="email" name="email" value="@Model.userEmailClaim" required  readonly/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="fs-md bold">Địa chỉ:</div>
+                                <input name="address"
+                                        type="text"
+                                       value="@Model.userAddressClaim"
+                                       required />
+                            </div>
+                            <button type="submit" class="btn full mt-1">
+                                <i class="fa-solid fa-pen"></i> Cập nhật
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

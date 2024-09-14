@@ -1,0 +1,15 @@
+.product-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.product-name {
+    max-width: 260px;
+}
+.product-name a {
+    font-weight: 500;
+    color: #333;
+}

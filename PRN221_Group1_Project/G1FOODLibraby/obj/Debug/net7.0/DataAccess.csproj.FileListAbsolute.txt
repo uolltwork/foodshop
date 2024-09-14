@@ -1,0 +1,17 @@
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\bin\Debug\net7.0\DataAccess.deps.json
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\bin\Debug\net7.0\DataAccess.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\bin\Debug\net7.0\DataAccess.pdb
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\bin\Debug\net7.0\G1FOODLibrary.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\bin\Debug\net7.0\G1FOODLibrary.pdb
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.csproj.CopyComplete
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\refint\DataAccess.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.pdb
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1FOODLibraby\obj\Debug\net7.0\ref\DataAccess.dll

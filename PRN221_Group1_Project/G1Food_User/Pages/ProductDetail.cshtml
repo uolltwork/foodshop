@@ -1,0 +1,192 @@
+﻿@page
+@model G1Food_User.Pages.ProductDetailModel
+@{
+    ViewData["Title"] = "Product Detail";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/productDetail.css" type="text/css" asp-append-version="true" />
+</head>
+<body>
+    <main class="container-fluid mt-content bg-main">
+        <div class="container mt-5">
+            <a class="btn sm mt-5" href="./Index">
+                Quay lại
+                <i class="fa-solid fa-left-long"></i>
+            </a>
+            @{
+                 if (@Model.Product != null)
+                        {
+                            <div class="row mt-5">
+                <div class="col-sm-12 col-md-5 overflow-hidden mb-5">
+                            <img class="product-detail-img" src="@Model.Product.Image" alt="" />
+                </div>
+                <div class="col-sm-12 col-md-6 ml-lg-5">
+                            <form method="post" asp-page="Cart">
+                                <input type="hidden" name="productID" value="@Model.Product.Id" />
+                                <p class="product-detail-name">@Model.Product.Name</p>
+                                <p class="product-detail-description">
+                                    @Model.Product.Description
+                                </p>
+                                <div class="d-flex align-items-baseline">
+                                    <p class="product-detail-price">
+                                        @{
+                                            @string.Format("{0:N0} VND", @Model.Product.Price - (@Model.Product.Price * @Model.Product.SalePercent /100))
+                                        }
+                                    </p>
+                                    @{
+                                        if (@Model.Product.SalePercent != 0)
+                                        {
+                                            <p class="main-color fs-ml bold mx-lg-4">
+                                                - @Model.Product.SalePercent%
+                                            </p>
+                                        }
+                                    }
+                                </div>
+                                @{
+                                    if (@Model.Product.Price != @Model.Product.Price - (@Model.Product.Price * @Model.Product.SalePercent / 100))
+                                    {
+                                        <p class="card-discount">
+                                            <i class="fa-solid fa-tags"></i>
+                                            @string.Format("{0:N0} VND", @Model.Product.Price)
+                                        </p>
+                                    }
+                                    else
+                                    {
+                                        <p class="">
+                                            <i class="fa-solid fa-tags main-color"></i>
+                                            <span class="text-black-50">Giá gốc siêu sóc</span>
+
+                                        </p>
+                                    }
+                                }
+
+                                <div class="quantity-group align-items-left">
+                                    <button type="button"
+                                            class="btn-decrease-quantity"
+                                            id="btn-decrease"
+                                            onClick="decreaseQuantity()">
+                                        -
+                                    </button>
+                                    <input type="number" id="quantity-input" name="quantity" value="1" min="1" />
+                                    <button 
+                                    type="button"
+                                            class="btn-increase-quantity"
+                                            onClick="increaseQuantity()"
+                                            id="btn-increase">
+                                        +
+                                    </button>
+                                </div>
+                                <button type="submit" class="btn full mt-4">Thêm vào giỏ hàng</button>
+                            </form>
+                    </div>
+                </div>
+                        }
+                 }
+            <div class="row mt-5">
+                <div class="col-sm-12">
+                    <div class="diliver"></div>
+                    <h4 class="mt-3">Comment</h4>
+                    <form action="">
+                        <div class="comment-wrapper mt-3">
+                            <input class="comment"
+                                   type="text"
+                                   placeholder="Nhập bình luận"
+                                   required />
+                            <button class="btn">
+                                <i class="fa-solid fa-pen"></i> Bình luận
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="comment-list mt-5">
+                        <p class="mt-3">Tất cả bình luận</p>
+                        <div class="comment-item">
+                            <div class="comment-group d-flex justify-content-between align-items-center">
+                                <div class="comment-user d-flex align-items-center">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="comment-username mb-0 ml-2">Nguyễn Ngọc Như Ý</p>
+                                    <div class="btn sm bg-info ml-2 btn-show-reply">
+                                        <i class="fa-solid fa-reply text-white"></i> Trả lời
+                                    </div>
+                                </div>
+                                <p class="comment-date mb-0"> <i class="fa-solid fa-clock mr-2 main-color"></i> 12/07/2023</p>
+                            </div>
+                            <p class="comment-content mb-0 ml-4 mt-2">
+                                Món này ngon quá ạ!
+                            </p>
+                            <form class="comment-wrapper d-none reply-1  ml-4 mt-3" action="">
+                                <input class="comment mr-2"
+                                       type="text"
+                                       placeholder="Nhập bình luận"
+                                       required />
+                                <button class="btn sm bg-info">
+                                    <i class="fa-solid fa-reply"></i> Trả lời
+                                </button>
+                            </form>
+                        </div>
+                        <div class="comment-item">
+                            <div class="comment-group d-flex justify-content-between align-items-center">
+                                <div class="comment-user d-flex align-items-center">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="comment-username mb-0 ml-2">Nguyễn Ngọc Như Ý</p>
+                                    <button class="btn sm bg-info ml-2 btn-show-reply">
+                                        <i class="fa-solid fa-reply text-white"></i> Trả lời
+                                    </button>
+                                </div>
+                                <p class="comment-date mb-0">
+                                    <i class="fa-solid fa-clock mr-2 main-color"></i>
+                                    12/07/2023
+                                </p>
+                            </div>
+                            <p class="comment-content mb-0 ml-4 mt-2">
+                                Món này ngon quá ạ!
+                            </p>
+                            <div class="comment-item sub ml-4">
+                                <div class="comment-group d-flex justify-content-between align-items-center">
+                                    <div class="comment-user d-flex align-items-center">
+                                        <i class="fa-solid fa-user"></i>
+                                        <p class="comment-username mb-0 ml-2">
+                                            Nguyễn Ngọc Như Ý
+                                        </p>
+                                    </div>
+                                    <p class="comment-date mb-0">
+                                        <i class="fa-solid fa-clock mr-2 main-color"></i>
+                                        12/07/2023
+                                    </p>
+                                </div>
+                                <p class="comment-content mb-0 ml-4 mt-2">
+                                    Món này ngon quá ạ!
+                                </p>
+                            </div>
+                            <form class="comment-wrapper d-none reply-2 ml-4 mt-3" action="">
+                                <input class="comment mr-2"
+                                       type="text"
+                                       placeholder="Nhập bình luận"
+                                       required />
+                                <button class="btn sm bg-info">
+                                    <i class="fa-solid fa-reply"></i> Trả lời
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script >
+        const quantityInput = document.querySelector('#quantity-input');
+        const increaseQuantity = () => {
+            let quantity = parseInt(quantityInput.value, 10);
+            quantityInput.value = quantity + 1;
+        }
+
+        const decreaseQuantity = () => {
+            let quantity = parseInt(quantityInput.value, 10);
+            if (quantity > 1) {
+                quantityInput.value = quantity - 1;
+            }
+        }
+    </script>
+</body>
+

@@ -1,0 +1,119 @@
+﻿@page
+@model G1Food_User.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<body>
+    <div class="container-fluid bg-primary z-1000 position-fixed h-100 wrapper animation-form">
+        <div class="container form-wrapper">
+            <div class="row">
+                <div class="col-sm-12 col-lg-7 form-img ">
+                    <img class="" src="./img/login_img.jpg" alt="" />
+                </div>
+                <div class="col-sm-12 col-lg-5">
+                    <div class="form-container">
+                        <form id="register-form" method="get" asp-page="VerifyEmail">
+                            <div class="form-heading text-center">
+                                <div class="form-logo">
+                                    <img src="https://www.lotteria.vn/grs-static/images/lotteria_logo.svg"
+                                         alt="logo" />
+                                </div>
+                                <h5 class="form-heading">Đăng kí tài khoản</h5>
+                                <p class="form-text text-black-50">
+                                    Hãy tạo tài khoản để mua sản phẩm!
+                                </p>
+                            </div>
+@*                             @{
+                                if (@Model.ResponseMessage != "")
+                                {
+                                    <div class="w-full main-color fs-md">@Model.ResponseMessage</div>
+                                }
+                            } *@
+                            <div class="form-body">
+                                <div class="d-flex">
+                                    <div class="form-group">
+                                        <input name="name"
+                                                class="form-input"
+                                               id="fullName"
+                                               type="text"
+                                               required
+                                               placeholder="Họ và tên" />
+                                        <div class="form-error"></div>
+                                    </div>
+                                    <div class="form-group ml-1">
+                                        <input name="phone"
+                                                class="form-input"
+                                               id="phone"
+                                               type="text"
+                                               required
+                                               placeholder="Số điện thoại" />
+                                        <div class="form-error"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input name="email"
+                                            class="form-input"
+                                           id="email"
+                                           type="text"
+                                           required
+                                           placeholder="Địa chỉ email" />
+                                    <div class="form-error"></div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="form-group">
+                                        <input
+                                               class="form-input"
+                                               
+                                               id="password"
+                                               required
+                                               type="password"
+                                               placeholder="Mật khẩu" />
+                                        <div class="form-error"></div>
+                                    </div>
+                                    <div class="form-group ml-1">
+                                        <input name="password"
+                                                class="form-input"
+                                               id="password-confirm"
+                                               required
+                                               type="password"
+                                               placeholder="Nhập lại mật khẩu" />
+                                        <div class="form-error"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input name="address"
+                                            class="form-input"
+                                           id="address"
+                                           type="text"
+                                           placeholder="Địa chỉ"
+                                           required />
+                                    <div class="form-error"></div>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <input type="checkbox" class="fs-md" id="form-confirm">
+                                    <span class="fs-md ml-2 w-full">Tôi đã kiếm tra thông tin chính xác!</span>
+                                    <div class="form-error"></div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn mt-3 full">
+                                        Đăng ký
+                                    </button>
+                                </div>
+                                <div class="form-group d-flex justify-content-between align-items-center">
+                                    <span class="fs-md">
+                                        hoặc
+                                        <a href="./Login" class="fs-md bold main-color">đăng nhập</a> tài khoản?
+                                    </span>
+                                    <a href="./Index" class="fs-md main-color"><i class="fa-solid fa-left-long"></i> Trở về</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/register.js" type="text/javascript" asp-append-version="true"></script>
+</body>
+

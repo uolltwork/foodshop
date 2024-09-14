@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\G1Food_Cashier.props" />
+</Project>

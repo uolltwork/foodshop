@@ -1,0 +1,14 @@
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\bin\Debug\net7.0\G1FOODLibrary.deps.json
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\bin\Debug\net7.0\G1FOODLibrary.runtimeconfig.json
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\bin\Debug\net7.0\G1FOODLibrary.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\bin\Debug\net7.0\G1FOODLibrary.pdb
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.csproj.AssemblyReference.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.AssemblyInfoInputs.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.AssemblyInfo.cs
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.csproj.CoreCompileInputs.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\refint\G1FOODLibrary.dll
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.pdb
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\G1FOODLibrary.genruntimeconfig.cache
+D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\DataAccess\obj\Debug\net7.0\ref\G1FOODLibrary.dll

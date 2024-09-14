@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "8mfiOlK+rd8/RPpjxxLpOWgmyakchbPZ6402XJG+E6Y=",
+  "Source": "G1FOODWebAPI",
+  "BasePath": "_content/G1FOODWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "G1FOODWebAPI\\wwwroot",
+      "Source": "G1FOODWebAPI",
+      "ContentRoot": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\",
+      "BasePath": "_content/G1FOODWebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "G1FOODWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\",
+      "BasePath": "_content/G1FOODWebAPI",
+      "RelativePath": "js/signalr/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "SourceId": "G1FOODWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1FOODWebAPI\\wwwroot\\",
+      "BasePath": "_content/G1FOODWebAPI",
+      "RelativePath": "js/signalr/dist/browser/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js"
+    }
+  ]
+}

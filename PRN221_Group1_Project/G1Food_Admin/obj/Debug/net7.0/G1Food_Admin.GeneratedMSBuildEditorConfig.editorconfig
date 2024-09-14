@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = G1Food_Admin
+build_property.RootNamespace = G1Food_Admin
+build_property.ProjectDir = D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1Food_Admin\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1Food_Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Account/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Account/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/DetailSchedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsU2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Inventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Inventory/InventoryExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XEludmVudG9yeUV4cG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Inventory/InventoryImport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5XEludmVudG9yeUltcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/MenuCreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUNyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Schedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/ScheduleMmanagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NoZWR1bGVNbWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Voucher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm91Y2hlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Voucher/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm91Y2hlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Voucher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm91Y2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Admin/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tbtwi9xqp4

@@ -1,0 +1,64 @@
+﻿@page
+@model G1Food_Cashier.Pages.CashierAtSroreModel
+@using G1FOODLibrary.DTO
+@{
+    ViewData["Title"] = "Cashier at store";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <form method="post">
+            <div class="d-flex">
+                <div class="row col-xl-10">
+                    @if(Model.Products != null)
+                    {
+                        @for (int i = 0; i < Model.Products.Count; i++)
+                        {
+                            <div class="col-xl-12 mb-4">
+                                <div class="card border-left-main shadow h-100">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="d-flex">
+                                                    <img src="@Model.Products[i].Image" class="col-2" />
+                                                    <div class="d-flex flex-wrap col-10">
+                                                        <div class="d-flex col-12">
+                                                            <div class="col-10 h5 mb-0 font-weight-bold text-gray-800 d-flex align-items-center">
+                                                                Gà chiên @Model.Products[i].Name
+                                                            </div>
+                                                            <div class="col-2 d-flex align-items-center justify-content-end">
+                                                                <input asp-for="@Model.Orders[i].ProductId" value="@Model.Products[i].Id"
+                                                                       class="form-input" type="hidden" />
+                                                                <input asp-for="@Model.Orders[i].Quantity"
+                                                                       class="form-input" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex col-12">
+                                                            <input asp-for="@Model.Orders[i].Note"
+                                                                   class="form-input" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                </div>
+                <div class="row col-xl-2 d-flex align-items-baseline justify-content-center">
+                    <button type="submit" class="btn mt-4">
+                        Order
+                    </button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>

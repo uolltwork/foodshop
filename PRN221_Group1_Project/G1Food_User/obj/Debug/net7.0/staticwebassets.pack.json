@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\G1Food_User.bundle.scp.css",
+      "PackagePath": "staticwebassets\\G1Food_User.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\catagory.css",
+      "PackagePath": "staticwebassets\\css\\catagory.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\paying.css",
+      "PackagePath": "staticwebassets\\css\\paying.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\productDetail.css",
+      "PackagePath": "staticwebassets\\css\\productDetail.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\css\\userProfile.css",
+      "PackagePath": "staticwebassets\\css\\userProfile.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\Bestseller.jpg",
+      "PackagePath": "staticwebassets\\img\\Bestseller.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\banner_banner_web.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_banner_web.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\card_1.jpg",
+      "PackagePath": "staticwebassets\\img\\card_1.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\card_2.png",
+      "PackagePath": "staticwebassets\\img\\card_2.png"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\chiken_group.jpg",
+      "PackagePath": "staticwebassets\\img\\chiken_group.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\combo.jpg",
+      "PackagePath": "staticwebassets\\img\\combo.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\drink.jpg",
+      "PackagePath": "staticwebassets\\img\\drink.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\hanbager.jpg",
+      "PackagePath": "staticwebassets\\img\\hanbager.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\login_img.jpg",
+      "PackagePath": "staticwebassets\\img\\login_img.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\no_product.png",
+      "PackagePath": "staticwebassets\\img\\no_product.png"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\rice.jpg",
+      "PackagePath": "staticwebassets\\img\\rice.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\img\\rice_nodles.jpg",
+      "PackagePath": "staticwebassets\\img\\rice_nodles.jpg"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\handleQuantity.js",
+      "PackagePath": "staticwebassets\\js\\handleQuantity.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\handleSlider.js",
+      "PackagePath": "staticwebassets\\js\\handleSlider.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\handleSliderCategory.js",
+      "PackagePath": "staticwebassets\\js\\handleSliderCategory.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\orderDetail.js",
+      "PackagePath": "staticwebassets\\js\\orderDetail.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\University\\Semester_7_FA23\\PRN221\\PRN221_G1\\G1\\PRN221_Group1_Project\\PRN221_Group1_Project\\G1Food_User\\wwwroot\\lib\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.G1Food_User.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.G1Food_User.props",
+      "PackagePath": "build\\G1Food_User.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.G1Food_User.props",
+      "PackagePath": "buildMultiTargeting\\G1Food_User.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.G1Food_User.props",
+      "PackagePath": "buildTransitive\\G1Food_User.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

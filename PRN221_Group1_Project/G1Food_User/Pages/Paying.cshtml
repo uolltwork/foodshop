@@ -1,0 +1,174 @@
+﻿@page
+@model G1Food_User.Pages.PayingModel
+@{
+    ViewData["Title"] = "Paying";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/paying.css" type="text/css" asp-append-version="true" />
+</head>
+<body>
+    <main class="container-fluid mt-content bg-main">
+        <form method="post">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-6 col-lg-7">
+                    <div class="d-flex justify-content-between mt-5">
+                            <h6 class="bold">GIỎ HÀNG CỦA BẠN (@Model.ListCarts.Count() Sản phẩm)</h6>
+                        <a class="btn sm" href="./Index">
+                            <i class="fa-solid fa-plus"></i>
+                            Thêm món ăn
+                        </a>
+                    </div>
+                    <div class="paying-desction mt-3">
+                        <i class="fa-solid fa-gift main-color mr-2"></i>
+                        <span>Mua nhiều hơn với hóa đơn 150,000 VND để nhận miễn phí 01 khoai tây chiên (M). Mua nhiều hơn với hóa đơn 225,000 VND để nhận miễn phí 01 phần Burger Tôm nhé. Lưu ý: chỉ áp dụng một số cửa hàng nhé</span>
+                    </div>
+                    <table class="table table-hover table-bordered text-center mt-5">
+                        <thead class="align-middle">
+                            <tr>
+                                <th>No.</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Ảnh</th>
+                                <th>Số lượng</th>
+                                <th>Gía</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                @{
+                                    int no = 1;
+                                    double shipFee = 30000;
+                                    double cartTotal = 0;
+                                    double voucherPercent = 0;
+                                    if(Model.ListCarts != null)
+                                {
+                                        foreach (var cart in Model.ListCarts)
+                                    {
+                                        <tr>
+                                            <td class="align-middle bold">@no</td>
+                                            <td class="align-middle product-name">
+                                                <a href="../ProductDetail?productID=@cart.ProductId">@cart.Name</a>
+                                            </td>
+                                            <td class="align-middle product-img">
+                                                <img src="@cart.Image" alt="">
+                                            </td>
+                                            <td class="align-middle product-quanity">
+                                                <div class="quantity-group justify-content-center">
+                                                    <input type="number" id="quantity-input" value="@cart.Quantity" min="1" />
+                                                </div>
+                                            </td>
+                                            <td class="align-middle product-total bold main-color">
+                                                @{
+                                                    var price = (cart.Price - (cart.Price * (decimal)cart.SalePercent / 100)) * (decimal)cart.Quantity;
+                                                    @string.Format("{0:N0} VND", price);
+                                                    cartTotal += (double)price;
+                                                    no += 1;
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                    <div class="paying-note mt-3">
+                        <p class="bold">Ghi chú cho đơn hàng</p>
+                            <input class="" type="text" asp-for="@Model.note" placeholder="Vui lòng nhập lưu ý cho cửa hàng">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5 mt-5">
+                    <div class="paying-info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="bold"> <i class="fa-regular fa-user main-color mr-2"></i> Thông tin nhân hàng</h6>
+                            <a class="btn sm bg-info" href="./UserProfile">
+                                <i class="fa-solid fa-plus"></i>
+                                Thêm địa chỉ
+                            </a>
+                        </div>
+                        <div class="d-flex mt-4">
+                            <span class="bold mr-2">Tên:</span>
+                            <span>@{@Model.userNameClaim}</span>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <span class="bold mr-2">Phone:</span>
+                            <span>@{@Model.userPhoneClaim}</span>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <div class="bold mr-2 ">Địa chỉ:</div>
+                            <span>@{
+                                    @Model.userAddressClaim
+                                }</span>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <span class="bold mr-2">Cửa hàng:</span>
+                            <span>G1-Food CẦN THƠ</span>
+                        </div>
+                        <div class="diliver full mt-4"></div>
+                        <p class="mt-2 text-center fs-md">Thời gian tiếp nhận đơn hàng trực tuyến từ 08:00 đến 21:00 hằng ngày</p>
+                    </div>
+                    <div class="paying-total mt-3">
+                        <div class="d-flex mt-2 justify-content-between">
+                            <span class="bold mr-2">Tạm tính:</span>
+                                <span class="bold">
+                                    @{
+                                        @string.Format("{0:N0} VND", @cartTotal)
+                                    }
+                                </span>
+                        </div>
+                        
+                        <div class="d-flex mt-2 align-items-lg-center">
+                            <span class="bold mr-2">Voucher:</span>
+                                <select asp-for="@Model.voucherCode" id="voucherCode" class="paying-voucher fs-md">
+                                    @{
+                                        if(Model.Vouchers != null)
+                                        {
+                                            foreach (var voucher in Model.Vouchers)
+                                            {
+                                                if (voucher.Status == "Còn")
+                                                {
+                                                    <option class="flex justify-content-between fs-md pd-1" value="@voucher.Code">
+                                                        @voucher.Code
+                                                        <span class="fs-md"> - @voucher.SalePercent%</span>
+                                                        <span class="fs-md">(@voucher.Description)</span>
+                                                    </option>
+                                                    voucherPercent = voucher.SalePercent;
+                                                }
+                                        }
+                                    }
+                                }
+                            </select>
+                        </div>
+                            <div class="d-flex mt-2 justify-content-between">
+                                <span class="bold mr-2">Voucher gảm:</span>
+                                <span class="">
+                                    - @{
+                                        @string.Format("{0:N0} VND",(@voucherPercent / 100 * @cartTotal))
+                                    }
+                                </span>
+                            </div>
+                            <div class="d-flex mt-2 justify-content-between">
+                                <span class="bold mr-2">Phí giao hàng:</span>
+                                <span>
+                                    +
+                                    @{
+                                        @string.Format("{0:N0} VND", shipFee)
+                                    }
+                                </span>
+                            </div>
+                        <div class="d-flex mt-2 justify-content-between">
+                            <span class="bold mr-2">Tổng cộng:</span>
+                                <span class="bold main-color">
+                                    @{
+                                        @string.Format("{0:N0} VND", @cartTotal - (@voucherPercent / 100 * @cartTotal) + shipFee)
+                                    }
+                                </span>
+                        </div>
+                        <p class="mt-3 fs-md ml-0 mb-0">Bạn vui lòng kiểm tra lại thông tin trước khi đặt hàng!</p>
+                        <button type="submit" class="btn full mt-3">Hoàn tất</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </main>
+</body>

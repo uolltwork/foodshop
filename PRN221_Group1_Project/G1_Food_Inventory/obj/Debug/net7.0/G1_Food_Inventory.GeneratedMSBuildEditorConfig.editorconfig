@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = G1_Food_Inventory
+build_property.RootNamespace = G1_Food_Inventory
+build_property.ProjectDir = D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1_Food_Inventory\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1_Food_Inventory
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/401.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcNDAxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/InventoryExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5RXhwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/InventoryImport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5SW1wb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/Statics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/TakeAttendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFrZUF0dGVuZGFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1_Food_Inventory/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9r8dicyuwu

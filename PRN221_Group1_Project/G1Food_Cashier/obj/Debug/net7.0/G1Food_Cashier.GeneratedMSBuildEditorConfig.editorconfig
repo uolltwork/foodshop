@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = G1Food_Cashier
+build_property.RootNamespace = G1Food_Cashier
+build_property.ProjectDir = D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1Food_Cashier\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\University\Semester_7_FA23\PRN221\PRN221_G1\G1\PRN221_Group1_Project\PRN221_Group1_Project\G1Food_Cashier
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/CashierAtStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzaGllckF0U3RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/CashierStatistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzaGllclN0YXRpc3RpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/TakeAttendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFrZUF0dGVuZGFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/Semester_7_FA23/PRN221/PRN221_G1/G1/PRN221_Group1_Project/PRN221_Group1_Project/G1Food_Cashier/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nh9313nw53
